@@ -1,6 +1,6 @@
 <html>
 <body>
-<h1><font color='blue'> Welcome to Mouli-Tech Hub <font></h1>
+<h1><font color='yellow'> Welcome to Mouli-Tech Hub <font></h1>
 
 <a href="https://moulitechhub.com/devops-training">Click Here To See Training curriculum </a>
   
