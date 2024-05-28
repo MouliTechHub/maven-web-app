@@ -6,7 +6,7 @@
 
   <groupId>in.moulitechhub</groupId>
   <artifactId>moulitechhub-web-app</artifactId>
-  <version>2.0-SNAPSHOT</version>
+  <version>3.0-SNAPSHOT</version>
   <packaging>war</packaging>
 
   <name>my-payment-web-app Maven Webapp</name>
