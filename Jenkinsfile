@@ -21,6 +21,6 @@ node {
     }
 
     stage ('Nexus Upload'){
-        nexusArtifactUploader artifacts: [[artifactId: 'moulitechhub-web-app', classifier: '', file: 'target/moulitechhub-web-app.war', type: 'war']], credentialsId: 'nexus-creds', groupId: 'in.moulitechhub', nexusUrl: '54.145.82.129:8081', nexusVersion: 'nexus3', protocol: 'http', repository: 'moulitechhub-snapshot-repository', version: '3.0-SNAPSHOT'
+        nexusArtifactUploader artifacts: [[artifactId: 'moulitechhub-web-app', classifier: '', file: 'target/moulitechhub-web-app.war', type: 'war']], credentialsId: 'nexus-creds', groupId: 'in.moulitechhub', nexusUrl: '54.146.62.46:8081', nexusVersion: 'nexus3', protocol: 'http', repository: 'moulitechhub-snapshot-repository', version: '3.0-SNAPSHOT'
     }
 }
