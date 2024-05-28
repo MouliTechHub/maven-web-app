@@ -1,8 +1,8 @@
 node {
     
-   // stage('clone repo') {
-   //      git 'https://github.com/moulitechhub/maven-web-app.git'
-   //  }
+   stage('clone repo') {
+        git 'https://github.com/moulitechhub/maven-web-app.git'
+    }
     
     
     stage ('Maven Build'){
